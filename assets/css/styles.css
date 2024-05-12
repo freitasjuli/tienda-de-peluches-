@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+} 
+body{
+    height: 700px;
+}
+.header{
+    background-color: #c4dafa;
+    text-align: center;
+    padding: 1vw;
+}
+.mostrar{
+    display: flex;
+}
+.navegacion{
+    width: 20vw;
+    height: 90vh;
+    background: #f4f8ff;
+
+}
+.cuadro{
+    text-align: center;
+    padding: 2vw;
+}
+.cuadro:hover{
+    background-color: #fafcff;
+    border: 1px;
+    border-color: #000000;
+    border-style: solid;
+}
+.contenedor{
+    overflow: auto;
+    height: 90vh;
+}
+.recuadro{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin: 1rem;
+}
+.producto{
+    text-align: center;
+    border: 1px;
+    border-color: #000000;
+    border-style: solid;
+    background-color: #fafcff;
+    h3{
+       font-size: 30px;
+    }
+    h2{
+        margin: 20px;
+        font-size: 15px;
+        color: #b1b1b1;
+    }
+}
+.imagen{
+    width: 12vw;
+    border: 1px;
+    border-color: #000000;
+    border-style: dashed;
+    margin: 30px;
+}
+.boton{
+    font-size: 20px;
+    background-color: #c4dafa;
+    padding: 10px 30px;
+    border-radius: 100px;
+    border: #c4dafa;
+    margin: 10px;
+}
+.boton:hover{
+    color: #c4dafa;
+    background-color: #fafcff;
+    border: 5px;
+    border-color: #c4dafa;
+    border-style: solid;
+}
